@@ -1,0 +1,7 @@
+crewai
+crewai_tools
+fastapi
+litellm
+litellm[proxy]
+exa_py
+langchain-ollama
