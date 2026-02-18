@@ -1,7 +1,7 @@
 crewai
 crewai_tools
 fastapi
+langchain-core
 litellm
-litellm[proxy]
 exa_py
 langchain-ollama
