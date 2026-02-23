@@ -1,6 +1,6 @@
 ## .env file
 
-  `MISTRAL_API_KEY` get it from: https://console.mistral.ai/
+  `LLM_API_KEY` get it from: https://console.mistral.ai/
 
   (or any llm of your liking)
   
@@ -17,3 +17,5 @@
   `pip install -r requirements.txt`
 
   `python crew.py`
+
+  you will be prompted to enter a topic (ex: data engineers in 2026) then the magic happens.
