@@ -12,6 +12,16 @@ crew = Crew(
     share_crew = True
 )
 
+try:
+    with open('post.md', 'w') as md_file:
+        pass
+except FileNotFoundError:
+    pass
+except Exception as e:
+    print(f"An error occurred: {e}")
+
+print("enter your topic: ")
+topic = input()
 result = crew.kickoff(
-    inputs = {'topic': 'data engineers in 2026'}
+    inputs = {'topic': topic}
 )

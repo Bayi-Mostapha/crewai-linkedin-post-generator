@@ -3,7 +3,7 @@ from crewai import Agent, LLM
 
 llm = LLM(
     model="mistral/mistral-large-latest",
-    api_key=os.getenv("MISTRAL_API_KEY")
+    api_key=os.getenv("LLM_API_KEY")
 )
 
 researcher = Agent(
